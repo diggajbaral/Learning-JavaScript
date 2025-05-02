@@ -1,9 +1,11 @@
+function isLeap(yrs) {
 
-const student = {
-    name : "Sita",
-    sayHello : function() {
-        console.log("Hello, I am " + this.name);
+    if ((yrs % 4 === 0 && yrs % 100 !== 0) || (yrs % 400 === 0)) {
+        console.log(true);
+    } else {
+        console.log(false);
     }
-};
 
-personalbar.sayHello();
+}
+
+isLeap(2023)
