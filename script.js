@@ -1,11 +1,12 @@
-function isLeap(yrs) {
 
-    if ((yrs % 4 === 0 && yrs % 100 !== 0) || (yrs % 400 === 0)) {
-        console.log(true);
-    } else {
-        console.log(false);
+function sumArray(a) {
+    let sum = 0;
+
+    for (let i = 0; i < a.length; i++) {
+        sum += a[i]
     }
 
+    return sum;
 }
 
-isLeap(2023)
+console.log(sumArray([1, 2, 3]));
