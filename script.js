@@ -1,12 +1,6 @@
 
-function sumArray(a) {
-    let sum = 0;
+const colors = ["red", "pink", "yellow"];
 
-    for (let i = 0; i < a.length; i++) {
-        sum += a[i]
-    }
-
-    return sum;
-}
-
-console.log(sumArray([1, 2, 3]));
+colors.forEach((color, index) => {
+    console.log(color, index);
+})
