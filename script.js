@@ -1,6 +1,7 @@
+// Easy loop without loop
 
-const colors = ["red", "pink", "yellow"];
+const car = ["toyota", "hyundai", "tata"]
 
-colors.forEach((color, index) => {
-    console.log(color, index);
-})
+for (const i of car) {
+    console.log(i.length);
+}
