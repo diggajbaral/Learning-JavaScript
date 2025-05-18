@@ -1,0 +1,62 @@
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-family: Verdana;
+    background-color: #212121;
+}
+
+p {
+    margin: 0px;
+    cursor: pointer;
+}
+
+.container {
+    width: 35em;
+}
+
+.createTask {
+    display: flex;
+    gap: 12px;
+}
+
+.createTask input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: aliceblue;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.createTask button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    background-color: green;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.tasks {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+.createdTask button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    background-color: crimson;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
