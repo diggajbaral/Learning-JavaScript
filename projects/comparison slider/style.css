@@ -2,7 +2,6 @@ body {
     display: grid;
     place-content: center;
     height: 90vh;
-
     background-color: #212121;
 }
 

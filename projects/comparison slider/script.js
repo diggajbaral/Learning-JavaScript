@@ -1,3 +1,4 @@
+
 const slider = document.querySelector('input[type = "range"]');
 const imgTwo = document.querySelector('#two');
 
