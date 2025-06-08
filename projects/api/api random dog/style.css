@@ -1,0 +1,12 @@
+    body {
+        display: grid;
+        place-items: center;
+        height: 90vh;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 16px;
+    }

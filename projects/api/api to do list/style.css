@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+.createdList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30em;
+    gap: 30px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid #e5e5e5;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 6px 20px;
+}
