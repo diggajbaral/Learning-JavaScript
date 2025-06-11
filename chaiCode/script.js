@@ -1,16 +1,20 @@
 
-function sumArray(a) {
+function longestWord(sentence) {
 
-    let sum = 0;
+    const words = sentence.split(' ');
 
-    for (let i = 0; i < a.length; i++) {
+    // console.log(words);
 
-        sum += a[i];
+    let longest = '';
 
-    }
+    words.forEach(word => {
+        if (word.length > longest.length) {
+            longest = word;
+        }
+    })
 
-    return sum;
+    console.log(longest)
 
 }
 
-console.log(sumArray([5, 4, 1]));
+longestWord('How are you, Laxman')
