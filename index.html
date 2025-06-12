@@ -9,14 +9,21 @@
 
 <body>
 
-    <div class="bg">
-        <h1 class="heading">Lorem ipsum dolor sit.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-    </div>
+    <ul class="coding">
+        <li>JavaScript</li>
+    </ul>
 
     <script>
 
+        function addCoding(codename) {
+            const li = document.createElement('li')
+            li.innerHTML = `${codename}`
+            document.querySelector('.coding').appendChild(li)
+        }
         
+        addCoding('Python')
+        addCoding('Ruby')
+        addCoding('Swift by an apple')
 
     </script>
 
